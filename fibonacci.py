@@ -7,6 +7,6 @@ def fibo( no ):
         return 1;
     return fibo( no-1 ) + fibo( no-2 );
 
-f = open("E:\\2term\\Cloud\\Assignment2\\input.txt","r");
+f = open("input.txt","r");
 for no in f:
     print("Fibo of "+no+": "+str(fibo(int(no))));
