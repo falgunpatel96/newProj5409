@@ -7,6 +7,6 @@ def fact( no ):
 
 
 
-f = open("E:\\2term\\Cloud\\Assignment2\\input.txt","r");
+f = open("input.txt","r");
 for no in f:
     print("Fact of "+no+": "+str(fact(int(no))));
