@@ -5,4 +5,8 @@ def fact( no ):
         return 1;
     return no * fact(no-1);
 
-print(fact(5));
+
+
+f = open("E:\\2term\\Cloud\\Assignment2\\input.txt","r");
+for no in f:
+    print("Fact of "+no+": "+str(fact(int(no))));
