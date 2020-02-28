@@ -9,4 +9,4 @@ def fact( no ):
 
 f = open("input.txt","r");
 for no in f:
-    print("Fact of "+no+": "+str(fact(int(no))));
+    print("Fact of "+str(no).strip()+": "+str(fact(int(no))));
