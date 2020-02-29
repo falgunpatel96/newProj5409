@@ -38,6 +38,6 @@ for index,no in enumerate(f):
 json_log = json.dumps(finalLog);
 #print("\n\n\n");
 print("JSON: "+json_log);
-with open("LogFibo.json",mode='w',newline="\n") as file:
+with open("LogFact.json",mode='w',newline="\n") as file:
     file.write(json_log);
 file.close();
